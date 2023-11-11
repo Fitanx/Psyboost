@@ -23,7 +23,7 @@ function sendMessage() {
     .then(data => {
         var chatBotMessageElement = document.createElement("div");
         chatBotMessageElement.className = "chatbot-message";
-        chatBotMessageElement.textContent = "Chatbot: " + data.response;
+        chatBotMessageElement.textContent = "Psyboost.AI: " + data.response;
         chatBox.appendChild(chatBotMessageElement);
 
         // Scroll to the bottom of the chat box
